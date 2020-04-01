@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+h2 {
+  color: gold;
+  text-align: center;
+}
+h3 {
+  color: white;
+  text-align: center;
+}
+h4 {
+  color: green;
+  text-align: center;
+  margin-bottom: 400px;
+}
+p {
+  color: red;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
