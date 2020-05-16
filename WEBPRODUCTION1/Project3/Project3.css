@@ -1,0 +1,126 @@
+ body {
+  margin:0;
+  padding:0;
+  background-image: linear-gradient(175deg,#ff0000, #038C3E,#000000);
+  background-size: 400% 400%;
+  -webkit-animation: blackflagcolors 15s ease infinite;
+-moz-animation: blackflagcolors 15s ease infinite;
+-o-animation: blackflagcolors 15s ease infinite;
+animation: blackflagcolors 15s ease infinite;
+}
+
+@font-face {
+  font-family: "dude";
+  src: url(fonts/EgyptianNights.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "paragraph";
+  src: url(fonts/gentletouch.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+@-webkit-keyframes blackflagcolors {
+    0%{background-position:37% 0%}
+    50%{background-position:64% 100%}
+    100%{background-position:37% 0%}
+}
+@-moz-keyframes blackflagcolors {
+    0%{background-position:37% 0%}
+    50%{background-position:64% 100%}
+    100%{background-position:37% 0%}
+}
+@-o-keyframes blackflagcolors {
+    0%{background-position:37% 0%}
+    50%{background-position:64% 100%}
+    100%{background-position:37% 0%}
+}
+@keyframes blackflagcolors {
+    0%{background-position:37% 0%}
+    50%{background-position:64% 100%}
+    100%{background-position:37% 0%}
+}
+
+}
+h1 {
+  color: red;
+  text-align: center;
+  font-family: dude;
+  font-weight:100;
+
+}
+
+h2 {
+  color: gold;
+  text-align: center;
+  font-family: dude;
+  font-weight:100;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+h3 {
+  color: white;
+  text-align: center;
+}
+h4 {
+  color: white;
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: dude;
+  font-weight:50;
+}
+p{
+  color:white;
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: paragraph;
+  font-weight: 25;
+}
+audio{
+  margin: : 0 auto;
+  display: block;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 50px;
+}
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 50px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
